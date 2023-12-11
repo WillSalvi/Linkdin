@@ -64,7 +64,8 @@ lr = LogisticRegression(class_weight = "balanced")
 
 lr.fit(X_train, y_train)
 
-st.write("Please enter the information for a person below and we'll predict if they are a Linkdin user.")
+st.markdown("# Welcome to the Linkdin User prediction app!")
+st.markdown("### Please enter the information for a person below and we'll predict if they are a Linkdin user.")
 
 #user input for income level
 income = st.selectbox("Income level", 
